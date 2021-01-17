@@ -52,8 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/lib64/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.thermal@2.0.so \
     vendor/xiaomi/umi/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml \
     vendor/xiaomi/umi/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml \
-    vendor/xiaomi/umi/proprietary/lib/libantradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libantradio.so \
-    vendor/xiaomi/umi/proprietary/lib64/libantradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libantradio.so \
     vendor/xiaomi/umi/proprietary/system_ext/app/com.qualcomm.qti.services.systemhelper/lib/arm64/libsystemhelper_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/com.qualcomm.qti.services.systemhelper/lib/arm64/libsystemhelper_jni.so \
     vendor/xiaomi/umi/proprietary/system_ext/bin/bt_logger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/bt_logger \
     vendor/xiaomi/umi/proprietary/system_ext/bin/diag_callback_sample_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/diag_callback_sample_system \
