@@ -574,6 +574,52 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/umi/proprietary/system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/lib/arm64/libimsmedia_jni.so \
     vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib64/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_adsp_loader.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_apr.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_bolero_cdc.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_cs35l41.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_cs35l41.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_hdmi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_hdmi.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_machine_kona.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_machine_kona.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_mbhc.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_native.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_pinctrl_lpi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_pinctrl_lpi.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_pinctrl_wcd.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_pinctrl_wcd.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_platform.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_notifier.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_pdr.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_rx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_rx_macro.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_snd_event.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_snd_event.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_stub.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_tfa98xx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_tfa98xx.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_tx_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_tx_macro.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_usf.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_va_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_va_macro.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd938x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd938x.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd938x_slave.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd938x_slave.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd_core.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wsa881x.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/audio_wsa_macro.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wsa_macro.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/exfat.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/exfat.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/fragmentize.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/fragmentize.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/gspca_main.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/gspca_main.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/lcd.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/lcd.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/llcc_perfmon.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/llcc_perfmon.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/modules.alias:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.alias \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/modules.dep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.dep \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/modules.load:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.load \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/modules.softdep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.softdep \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/mpq-adapter.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/mpq-dmx-hw-plugin.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/qca_cld3_qca6390.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/qca_cld3_qca6390.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/qca_cld3_qca6490.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/qca_cld3_qca6490.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rdbg.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rmnet_perf.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rmnet_shs.ko \
+    vendor/xiaomi/umi/proprietary/product/vendor_overlay/30/lib/modules/sla.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/sla.ko \
     vendor/xiaomi/umi/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/umi/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
 
