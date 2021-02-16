@@ -625,6 +625,8 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
+    HotwordEnrollmentXGoogleHEXAGON \
+    HotwordEnrollmentOKGoogleHEXAGON \
     ConfURIDialer \
     DeviceInfo \
     DeviceStatisticsService \
